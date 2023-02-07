@@ -1,0 +1,11 @@
+.env
+.venv
+
+node_modules
+
+# Hardhat files
+cache
+artifacts
+
+# StarkNet Cairo
+starknet-artifacts
