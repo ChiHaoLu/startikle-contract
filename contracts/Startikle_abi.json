@@ -1,0 +1,106 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "felt"
+            }
+        ],
+        "name": "get_articleURI",
+        "outputs": [
+            {
+                "name": "articleURI_len",
+                "type": "felt"
+            },
+            {
+                "name": "articleURI",
+                "type": "felt*"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "felt"
+            },
+            {
+                "name": "array_len",
+                "type": "felt"
+            },
+            {
+                "name": "array",
+                "type": "felt*"
+            }
+        ],
+        "name": "_read_articleURI",
+        "outputs": [
+            {
+                "name": "array_len",
+                "type": "felt"
+            },
+            {
+                "name": "array",
+                "type": "felt*"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "felt"
+            },
+            {
+                "name": "uri_len",
+                "type": "felt"
+            },
+            {
+                "name": "uri",
+                "type": "felt*"
+            }
+        ],
+        "name": "set_articleURI",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "id",
+                "type": "felt"
+            },
+            {
+                "name": "uri_len",
+                "type": "felt"
+            },
+            {
+                "name": "uri",
+                "type": "felt*"
+            }
+        ],
+        "name": "upload_post",
+        "outputs": [],
+        "type": "function"
+    }
+]

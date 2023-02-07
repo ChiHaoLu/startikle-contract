@@ -54,7 +54,7 @@ func upload_post{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr
     user: felt, id: felt, uri_len: felt, uri: felt*
 ) {
     let now_num = user_articles_num.read(user);
-    user_articles_num.write(user, now_num + 1);
+    user_articles_num.write(user, now_num.num + 1);
     set_articleURI(user, id, uri_len, uri);
     return ();
 }
